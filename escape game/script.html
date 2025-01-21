@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sauvez la Démocratie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sauvez la Démocratie</h1>
+        <p>Un escape game interactif pour défendre les valeurs démocratiques !</p>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Bienvenue dans l'aventure</h2>
+            <p>Les Ombres de l'Autorité menacent notre démocratie. Votre mission est de résoudre les énigmes et de protéger les droits des citoyens.</p>
+            <button id="startGame">Commencer le jeu</button>
+        </section>
+
+        <section id="game" style="display: none;">
+            <h2>Énigme 1 : L'entrée verrouillée</h2>
+            <p>Un texte codé vous est laissé. Trouvez la clé pour entrer :</p>
+            <textarea id="inputCode" placeholder="Entrez le code ici"></textarea>
+            <button id="submitCode">Valider</button>
+            <p id="feedback"></p>
+        </section>
+
+        <section id="endGame" style="display: none;">
+            <h2>Félicitations !</h2>
+            <p>Vous avez sauvé la démocratie. Merci pour votre bravoure !</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sauvez la Démocratie. Créé pour un projet éducatif.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
